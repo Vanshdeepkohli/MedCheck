@@ -70,5 +70,14 @@
         android:layout_margin="30dp"
         />
 
+    <TextView
+        android:id="@+id/logIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log in"
+        app:layout_constraintTop_toBottomOf="@id/signUp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
